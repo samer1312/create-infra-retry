@@ -7,11 +7,11 @@ Resources:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
       # Change this, as applicable to you      
-      KeyName: hesham-try
+      KeyName: create-infta-key
       # Change this, as applicable to you
       # You may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
       ImageId: 'ami-06878d265978313ca' 
-      InstanceType: t3.micro
+      InstanceType: t2.micro
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
