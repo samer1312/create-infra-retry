@@ -24,7 +24,7 @@ jobs:
     - run:
         name: Run Playbook and Configure server
         command: |
-          ansible-playbook -i inventory main.yml --private-key create-infta-key
+          ansible-playbook -i inventory main.yml
 
 
 workflows:
