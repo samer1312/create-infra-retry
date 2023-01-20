@@ -12,7 +12,7 @@ orbs:
 jobs:
   configure_infrastructure: 
    docker:
-    - image: circleci/python:3.8
+    - image: circleci/python:3.7
    steps:
     - checkout
     - add_ssh_keys:
